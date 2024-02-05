@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		191EA6F72B718195005B1A25 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 191EA6F62B718195005B1A25 /* RealityKitContent */; };
+		191EA6F92B718195005B1A25 /* WallArtApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191EA6F82B718195005B1A25 /* WallArtApp.swift */; };
+		191EA6FB2B718195005B1A25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191EA6FA2B718195005B1A25 /* ContentView.swift */; };
+		191EA6FD2B718195005B1A25 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191EA6FC2B718195005B1A25 /* ImmersiveView.swift */; };
+		191EA6FF2B718196005B1A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191EA6FE2B718196005B1A25 /* Assets.xcassets */; };
+		191EA7022B718196005B1A25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191EA7012B718196005B1A25 /* Preview Assets.xcassets */; };
+		191EA70D2B718196005B1A25 /* WallArtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191EA70C2B718196005B1A25 /* WallArtTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		191EA7092B718196005B1A25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 191EA6E92B718195005B1A25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 191EA6F02B718195005B1A25;
+			remoteInfo = WallArt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		191EA6F12B718195005B1A25 /* WallArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		191EA6F52B718195005B1A25 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		191EA6F82B718195005B1A25 /* WallArtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallArtApp.swift; sourceTree = "<group>"; };
+		191EA6FA2B718195005B1A25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		191EA6FC2B718195005B1A25 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		191EA6FE2B718196005B1A25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		191EA7012B718196005B1A25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		191EA7032B718196005B1A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		191EA7082B718196005B1A25 /* WallArtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallArtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		191EA70C2B718196005B1A25 /* WallArtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallArtTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		191EA6EE2B718195005B1A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191EA6F72B718195005B1A25 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		191EA7052B718196005B1A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		191EA6E82B718195005B1A25 = {
+			isa = PBXGroup;
+			children = (
+				191EA6F32B718195005B1A25 /* WallArt */,
+				191EA6F42B718195005B1A25 /* Packages */,
+				191EA70B2B718196005B1A25 /* WallArtTests */,
+				191EA6F22B718195005B1A25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		191EA6F22B718195005B1A25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				191EA6F12B718195005B1A25 /* WallArt.app */,
+				191EA7082B718196005B1A25 /* WallArtTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		191EA6F32B718195005B1A25 /* WallArt */ = {
+			isa = PBXGroup;
+			children = (
+				191EA6F82B718195005B1A25 /* WallArtApp.swift */,
+				191EA6FA2B718195005B1A25 /* ContentView.swift */,
+				191EA6FC2B718195005B1A25 /* ImmersiveView.swift */,
+				191EA6FE2B718196005B1A25 /* Assets.xcassets */,
+				191EA7032B718196005B1A25 /* Info.plist */,
+				191EA7002B718196005B1A25 /* Preview Content */,
+			);
+			path = WallArt;
+			sourceTree = "<group>";
+		};
+		191EA6F42B718195005B1A25 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				191EA6F52B718195005B1A25 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		191EA7002B718196005B1A25 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				191EA7012B718196005B1A25 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		191EA70B2B718196005B1A25 /* WallArtTests */ = {
+			isa = PBXGroup;
+			children = (
+				191EA70C2B718196005B1A25 /* WallArtTests.swift */,
+			);
+			path = WallArtTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		191EA6F02B718195005B1A25 /* WallArt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 191EA7102B718196005B1A25 /* Build configuration list for PBXNativeTarget "WallArt" */;
+			buildPhases = (
+				191EA6ED2B718195005B1A25 /* Sources */,
+				191EA6EE2B718195005B1A25 /* Frameworks */,
+				191EA6EF2B718195005B1A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WallArt;
+			packageProductDependencies = (
+				191EA6F62B718195005B1A25 /* RealityKitContent */,
+			);
+			productName = WallArt;
+			productReference = 191EA6F12B718195005B1A25 /* WallArt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		191EA7072B718196005B1A25 /* WallArtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 191EA7132B718196005B1A25 /* Build configuration list for PBXNativeTarget "WallArtTests" */;
+			buildPhases = (
+				191EA7042B718196005B1A25 /* Sources */,
+				191EA7052B718196005B1A25 /* Frameworks */,
+				191EA7062B718196005B1A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				191EA70A2B718196005B1A25 /* PBXTargetDependency */,
+			);
+			name = WallArtTests;
+			productName = WallArtTests;
+			productReference = 191EA7082B718196005B1A25 /* WallArtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		191EA6E92B718195005B1A25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					191EA6F02B718195005B1A25 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					191EA7072B718196005B1A25 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 191EA6F02B718195005B1A25;
+					};
+				};
+			};
+			buildConfigurationList = 191EA6EC2B718195005B1A25 /* Build configuration list for PBXProject "WallArt" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 191EA6E82B718195005B1A25;
+			productRefGroup = 191EA6F22B718195005B1A25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				191EA6F02B718195005B1A25 /* WallArt */,
+				191EA7072B718196005B1A25 /* WallArtTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		191EA6EF2B718195005B1A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191EA7022B718196005B1A25 /* Preview Assets.xcassets in Resources */,
+				191EA6FF2B718196005B1A25 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		191EA7062B718196005B1A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		191EA6ED2B718195005B1A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191EA6FB2B718195005B1A25 /* ContentView.swift in Sources */,
+				191EA6F92B718195005B1A25 /* WallArtApp.swift in Sources */,
+				191EA6FD2B718195005B1A25 /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		191EA7042B718196005B1A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191EA70D2B718196005B1A25 /* WallArtTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		191EA70A2B718196005B1A25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 191EA6F02B718195005B1A25 /* WallArt */;
+			targetProxy = 191EA7092B718196005B1A25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		191EA70E2B718196005B1A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		191EA70F2B718196005B1A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		191EA7112B718196005B1A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WallArt/Preview Content\"";
+				DEVELOPMENT_TEAM = 8MM6543LKC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GrayGhostData.WallArt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		191EA7122B718196005B1A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WallArt/Preview Content\"";
+				DEVELOPMENT_TEAM = 8MM6543LKC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GrayGhostData.WallArt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		191EA7142B718196005B1A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8MM6543LKC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GrayGhostData.WallArtTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WallArt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WallArt";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		191EA7152B718196005B1A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8MM6543LKC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GrayGhostData.WallArtTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WallArt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WallArt";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		191EA6EC2B718195005B1A25 /* Build configuration list for PBXProject "WallArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				191EA70E2B718196005B1A25 /* Debug */,
+				191EA70F2B718196005B1A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		191EA7102B718196005B1A25 /* Build configuration list for PBXNativeTarget "WallArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				191EA7112B718196005B1A25 /* Debug */,
+				191EA7122B718196005B1A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		191EA7132B718196005B1A25 /* Build configuration list for PBXNativeTarget "WallArtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				191EA7142B718196005B1A25 /* Debug */,
+				191EA7152B718196005B1A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		191EA6F62B718195005B1A25 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 191EA6E92B718195005B1A25 /* Project object */;
+}
